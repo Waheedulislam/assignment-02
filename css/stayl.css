@@ -1,0 +1,146 @@
+/* ----------
+font
+--------- */
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 106px;
+    padding-top: 60px;
+
+}
+.navigation{
+    display: flex;
+    Height:36px;
+Top :95px;
+Left :871px;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+    padding-top: 19px;
+
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px 10px;
+}
+.h3-text{
+    padding-top: 20px;
+}
+/* ---------
+header end------- */
+h1{
+    font-size: 52px;
+}
+section{
+    display: flex;
+}
+.first-width{
+    width: 50%;
+    padding-left: 8%;
+    padding-top: 144px;
+}
+.first-width img{
+    width: 80%;
+ }
+ .fa-arrow-right{
+     padding-left: 5%;
+ }
+ .link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 500;
+    border-radius: 41px;
+    position: absolute;
+    width: 155px;
+ }
+ /*------------
+ first-section-end
+ ------------ */
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 28px;
+}
+/* -----------
+product style
+-------------- */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 21px;
+}
+.left-side{
+    padding-left: 100px;
+}
+}
+.product .product-banner img{
+    width: 300px;
+    height: 256px;
+   
+
+}
+.product-author{
+   color:  #787885;
+}
+.product-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    width: 17.07px;
+    height: 2.07px;
+   
+}
+.fa-star-half-alt.filled{
+   width: 17.07px;
+}
+
+.fa-star.filled{
+   color: #FB8200;
+}
+.fa-star-half-alt.filled{
+    color: #FB8200;
+}
+.products{
+    width: 329px;
+    height: 490px;
+    left: 172px;
+    top: 934px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.product{
+  padding-left: 10px;
+  padding-top: 8px;
+}
+.font-size{
+    font-size: 15px;
+}
+.button > a{
+    text-decoration: none;
+    color: #E02C6D;
+ 
+}
+.button{
+   padding-top: 50px;
+    
+}
+/*-------------
+ product-list-end
+ --------------- */
